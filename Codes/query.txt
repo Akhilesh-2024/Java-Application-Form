@@ -1,0 +1,13 @@
+CREATE TABLE studentinfo (Sname VARCHAR(50),Smobile INTEGER,Semail VARCHAR(50),Spassword VARCHAR(50),Sgender VARCHAR(50),Saddress VARCHAR(250),Scity VARCHAR(50),
+Spincode INTEGER,id INTEGER PRIMARY KEY AUTOINCREMENT);
+
+
+CREATE TRIGGER delete_after AFTER DELETE
+ON studentinfo
+FOR EACH ROW
+BEGIN
+INSERT INTO studentinfo_backup(Sname,Smobile,Semail,Spassword,Sgender,Saddress,Scity,Spincode,id)
+ VALUES (OLD.Sname, OLD.Smobile, OLD.Semail, OLD.Spassword, OLD.Sgender, OLD.Saddress, OLD.Scity, OLD.Spincode,OLD.id);
+END;
+
+CREATE TABLE studentinfo_backup(Sname TEXT,Smobile INT,Semail TEXT,Spassword TEXT,Sgender TEXT,Saddress TEXT,Scity TEXT,Spincode INT,id INT);

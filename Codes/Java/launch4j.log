@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	D:\Java\Result.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Java\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	D:\Java\JRE\bin\javaw.exe (OK)
+Version string: 1.021.000_005 / 64-Bit (OK)
+Launcher:	D:\Java\JRE\bin\javaw.exe
+Launcher args:	-jar "D:\Java\Result.exe"
+Args length:	25/32768 chars
+Exit code:	0
