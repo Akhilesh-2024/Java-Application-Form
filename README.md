@@ -13,7 +13,7 @@
 
 ## Preview
 
-![Application Screenshot](demo.gif) *(replace with your actual screenshot)*
+![Application Screenshot](demo.gif)
 
 ## Default Credentials
 
@@ -44,21 +44,6 @@
   - Self-registration
   - Profile management
   - Secure login/logout
-
-## Project Structure
-
-<pre>
-src/
-├── main/
-│   ├── java/
-│   │   ├── controllers/        # Event handlers
-│   │   ├── models/            # Data models
-│   │   ├── views/             # UI components
-│   │   ├── database/          # DB connection & queries
-│   │   └── App.java           # Main entry point
-│   └── resources/             # Configuration files
-└── test/                      # Unit tests
-</pre>
 
 ## Getting Started
 
