@@ -13,7 +13,7 @@
 
 ## Preview
 
-![Application Screenshot](Java.png)
+![Application Screenshot](Preview.png)
 
 ## Default Credentials
 
